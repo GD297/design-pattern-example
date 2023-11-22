@@ -1,4 +1,4 @@
-package com.dinhgt.pattern.creational;
+package com.dinhgt.pattern.creational.singleton;
 
 public class EagerInitialization {
     // You can create instance musicPlayer 2 ways

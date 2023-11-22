@@ -1,4 +1,4 @@
-package com.dinhgt.pattern.creational;
+package com.dinhgt.pattern.creational.singleton;
 
 public class ThreadSafeInitialization {
     private static ThreadSafeInitialization threadSafeInitialization;

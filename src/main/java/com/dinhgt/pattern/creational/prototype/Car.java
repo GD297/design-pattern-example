@@ -43,8 +43,14 @@ public class Car extends Vehicle{
 
     @Override
     public boolean isClone(Vehicle vehicle) {
-
-        return false;
+        if (!(vehicle instanceof Car)){
+            return false;
+        }
+        Car car = (Car) vehicle;
+        return car.getLicense().equals(this.getLicense()) &&
+                car.getEngine().equals(this.getEngine()) &&
+                car.getName().equals(this.getName()) &&
+                car.getModel().equals(this.getModel());
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.dinhgt.pattern.structural.adapter;
+package com.dinhgt.pattern.structural.adapter.v1;
 
 import java.util.List;
 

@@ -10,10 +10,11 @@ public abstract class MenuComponent {
     protected List<MenuComponent> menuComponents = new ArrayList<>();
 
     public void add(MenuComponent menuComponent) {
-       throw new UnsupportedOperationException("add method is not implement yet!");
+       throw new UnsupportedOperationException("add method is not implemented yet!");
     }
+
     public void remove(MenuComponent menuComponent) {
-        throw new UnsupportedOperationException("add method is not implement yet!");
+        throw new UnsupportedOperationException("remove method is not implemented yet!");
     }
 
     public abstract String toString();
